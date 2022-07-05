@@ -3,3 +3,78 @@ body {
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
+
+/*banner area*/
+.top-banner {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.tomato {
+    color: rgb(224, 59, 30);
+}
+
+.half-width {
+    width: 40%;
+    padding-left: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.half-width h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.459);
+}
+
+.half-width p {
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.order-btn {
+    background-image: linear-gradient(tomato, blue);
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+}
+
+/*about section*/
+
+.about {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.flexible {
+    width: 35%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.contact-me {
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgba(30, 3, 73, 0.795);
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.about-me h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(80, 73, 73, 0.904);
+}
+
+.about-me p {
+    text-align: justify;
+    font-weight: 300;
+    color: rgb(43, 69, 92);
+}
